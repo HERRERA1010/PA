@@ -10,7 +10,7 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif !important;
+    font-family: 'Work Sans', sans-serif;
     line-height: 1.8;
 }
 
@@ -117,7 +117,8 @@ section {
 }
 
 .fuente-brand {
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Abril Fatface', cursive;
+    font-weight:lighter;
 }
 
 .navbar-light .navbar-nav .nav-link.active,
