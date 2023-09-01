@@ -16,17 +16,19 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/BLANCO.ico" />
     <!--CSS-->
     <link rel="stylesheet" href="css/line-icons.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/trabajos-previos.css">
     <link rel="stylesheet" href="css/banner/banner.css">
+    <link rel="stylesheet" href="css/botonFlotante.css">
     <title>Physio Animal</title>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!--navbar-->
-    <nav class="navbar  navbar-dark  fixed-top navbar-expand-lg color-principal" data-aos="fade-down">
+    <nav class="navbar  navbar-dark  fixed-top navbar-expand-lg bg-principal" data-aos="fade-down">
         <div class="container color-principal">
             <a class="navbar-brand fuente-brand text-light " href="#">Physio Animal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -36,46 +38,39 @@
             <div class="collapse navbar-collapse " id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#home">INICIO</a>
+                        <a class="nav-link text-light" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#services">QUIENES SOMOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#about">SERVICIOS</a>
+                        <a class="nav-link text-light" href="pages/nServicios.html">Servicios</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#contact">CONTACTO</a>
+                        <a class="nav-link text-light" href="pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-
     <!--hero-->
     <section id="home" class="bg-cover hero-section" style="background-image: url(img/PA_009.jpg)">
-
         <div class="overlay"></div>
         <div class="container text-white text-center">
             <div class="row">
                 <div class="col-12">
-                    <h1 class="fuente-brand" data-aos="zoom-i ">Physio Animal</h1>
+                    <!--hero <h1 class="fuente-brand" data-aos="zoom-i ">Physio Animal</h1> -->
                     <img src="img/BLANCO.png" class="logo-banner" data-aos="fade-up" alt="">
-                    <!--hero
-                    -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!--services-->
+    <!--ABOUT US-->
     <section id="services" class="text-center">
         <div class="container">
             <div class="row">
                 <div class="col-12 section-intro " data-aos="fade-up">
-                    <h2 class="text-center fuente-brand mb-5">QUIENES SOMOS</h2>
-
+                    <h2 class="text-center fuente-brand mb-5 color-texto-secundario text-shadow-titulos">QUIENES SOMOS
+                    </h2>
                     <p class="text-start p-2">
                         PHYSIO ANIMAL Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur
                         eveniet dicta obcaecati dolor delectus voluptas iste, reiciendis ut molestiae? Magni voluptates
@@ -90,7 +85,7 @@
                         <div class="service-img">
                             <img src="img/cheems.jpg" alt="" />
                         </div>
-                        <h4 class="mt-5 pt-4 mb-5 fuente-brand">Misión</h4>
+                        <h4 class="mt-1 pt-4 mb-5 fuente-brand color-texto-secundario text-shadow-titulos">Misión</h4>
                         <p class="text-start p-2">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum veritatis illum
                             porro architecto magni fugiat voluptatem non doloribus accusantium.
@@ -102,7 +97,7 @@
                         <div class="service-img">
                             <img src="img/cheems.jpg" alt="" />
                         </div>
-                        <h4 class="mt-5 pt-4 mb-5 fuente-brand">Visión</h4>
+                        <h4 class="mt-1 pt-4 mb-5 color-texto-secundario text-shadow-titulos fuente-brand">Visión</h4>
                         <p class="text-start p-2 ">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos maiores quidem
                             inventore corrupti tenetur praesentium veniam tempore ipsa velit?
@@ -112,26 +107,24 @@
             </div>
         </div>
     </section>
-
-    <!--about-->
-    <section id="about" class="bg-cover" style="background-image: url(img/dogFoto.jpg)">
+    <!--PARALLAX FOTO-->
+    <section id="about" class="bg-cover height-section" style="background-image: url(img/dogFoto.jpg)">
         <div class="overlay"></div>
         <div class="container text-white text-center">
             <div class="row">
                 <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h2 class="mb-5 fuente-brand">AL CUIDADO DE TU LOMITO</h2>
+                    <h2 class="mb-5 fuente-brand"></h2>
                 </div>
             </div>
         </div>
     </section>
-
-    <!--features-->
-    <section id="features" class="text-center">
-        <div class="container">
+    <!--SERVICIOS-->
+    <section id="features" class="text-center bg-principal text-light">
+        <div class="container ">
             <div class="row">
                 <div class="col-12 section-intro text-center" data-aos="fade-up">
 
-                    <h2 class="text-uppercase mb-5 fuente-brand">
+                    <h2 class="text-uppercase mb-5 fuente-brand text-light">
                         nuestros servicios
                     </h2>
                 </div>
@@ -139,68 +132,42 @@
             <div class="row gx-4 gy-5">
                 <div class="col-md-6 feature" data-aos="fade-up">
                     <div class="icon">
-                        <i class="fa-solid fa-tree-city"></i>
                     </div>
-                    <h5 class="mt-4 mb-3">Lorem, ipsum dolor.</h5>
-                    <p class="text-start p-2 ">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Aliquid, culpa perspiciatis! Maxime, nihil laboriosam! Vero!
-                    </p>
-                </div>
-                <div class="col-md-6 feature" data-aos="fade-up">
-                    <div class="icon">
-                        <i class="fa-solid fa-file-lines"></i>
-                    </div>
-                    <h5 class="mt-4 mb-3">Lorem, ipsum dolor.</h5>
-                    <p class="text-start p-2">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Eveniet quod voluptatum id enim, voluptatem facilis.
-                    </p>
-                </div>
-                <div class="col-md-6 feature" data-aos="fade-up">
-                    <div class="icon">
-                        <i class="fa-solid fa-file-powerpoint"></i>
-                    </div>
-                    <h5 class="mt-4 mb-3">Lorem, ipsum dolor.</h5>
-                    <p class="text-start p-2 ">
+                    <h3 class="mt-4 mb-3">Fisioterapia</h3>
+                    <p class="text-left p-4  fw-bold">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Earum quibusdam nobis dolore ipsa atque
-                        assumenda.
+                        Debitis consequuntur rem necessitatibus optio quam
+                        autem minima minus porro quasi enim.
                     </p>
                 </div>
                 <div class="col-md-6 feature" data-aos="fade-up">
                     <div class="icon">
-                        <i class="fa-solid fa-file-contract"></i>
                     </div>
-                    <h5 class="mt-4 mb-3">Lorem, ipsum dolor.</h5>
-                    <p class="text-start p-2 ">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                         Ut minima corrupti atque incidunt,
-                        neque repudiandae.
+                    <h3 class="mt-4 mb-3">Rehabilitación</h3>
+                    <p class="text-left p-4 fw-bold">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptates ex quibusdam quia quod incidunt iste officiis,
+                        accusamus expedita provident laboriosam?
                     </p>
                 </div>
-
-
             </div>
         </div>
+        <a href="#" class="myButton mt-4">Mas..</a>
     </section>
-
-    <!--counters-->
-
+    <!--PARALLAX FOTO-->
     <section class="bg-cover height-section" style="background-image: url(img/dogFoto3.jpg)">
         <div class="overlay"></div>
         <div class="container ">
             <div class="row gy-4 mt-5 mb-5" data-aos="fade-up">
-
             </div>
         </div>
     </section>
-    <!--blog-->
+    <!--HISOTORIAS DE PACIENTES-->
     <section id="blog" class="bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h2 class="fuente-brand">HISTORIAS BONITAS</h2>
+                    <h2 class="fuente-brand color-texto-secundario text-shadow-titulos">HISTORIAS BONITAS</h2>
                 </div>
             </div>
             <div class="row text-left">
@@ -226,9 +193,7 @@
                     </div>
                 </div>
             </div>
-
     </section>
-
     <!--contact-->
     <section id="contact" class="bg-cover text-white" style="background-image: url(img/dogFoto4.jpg)">
         <div class="overlay"></div>
@@ -264,7 +229,6 @@
             </div>
         </div>
     </section>
-
     <!--footer-->
     <footer class="py-4">
         <div class="container">
@@ -281,6 +245,17 @@
             </div>
         </div>
     </footer>
+
+    <div class="containerBoton2  d-block d-xxl-none d-lg-none d-xl-none">
+        <a href="tel:+529994417237">
+            <img class="botonT" src="img/phone-solid.svg" alt="boton lamada">
+        </a>
+    </div>
+    <div class="containerBoton d-block d-xxl-none d-lg-none d-xl-none">
+        <a href="https://wa.me/+529994417237?text=Solicito%20informacion" target="_blank">
+            <img class="botonW" src="img/waIcono.png" alt="boton whatsapp">
+        </a>
+    </div>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
