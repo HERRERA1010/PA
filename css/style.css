@@ -32,6 +32,10 @@ body {
     background-color:  var(--color-principal) !important;
 }
 
+.text-left{
+    text-align: left;
+}
+
 .myButton {
 	
 	background:linear-gradient(to bottom, var(--color-principal), var(--color-principal) 100%);
