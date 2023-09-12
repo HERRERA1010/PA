@@ -193,12 +193,6 @@ section {
     font-size: 36px;
 }
 
-.feature i {
-    background: -webkit-linear-gradient(#1C3879, #1c3878);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 54px;
-}
 
 
 .review {
