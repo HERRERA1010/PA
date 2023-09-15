@@ -157,31 +157,10 @@ section {
     margin-bottom: 40px;
 }
 
-.section-intro .divider {
-    height: 4px;
-    width: 70px;
-    background: linear-gradient(to right, #00e0fe, #1107fe);
-    margin: 16px auto;
-}
 
 .service .service-img {
     margin: auto;
     max-width: 320px;
-}
-
-.service .service-img .icon {
-    width: 90px;
-    height: 90px;
-    background: linear-gradient(to right, #00e0fe, #1107fe);
-    color: #fff;
-    border-radius: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: -45px;
-    left: 50%;
-    transform: translateX(-50%);
 }
 
 .service .service-img .icon i {
