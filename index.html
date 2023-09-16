@@ -1,281 +1,55 @@
-<!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">  
-    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/d20969dd14.js" crossorigin="anonymous"></script>
-    <!--FUNETE DEL LOGO TITULO DE LA EMPRESA-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,300&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="img/BLANCO.ico" />
-    <!--CSS-->
-    <link rel="stylesheet" href="css/line-icons.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/trabajos-previos.css">
-    <link rel="stylesheet" href="css/banner/banner.css">
-    <link rel="stylesheet" href="css/botonFlotante.css">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Physio Animal</title>
-</head>
-
-<body  data-bs-target=".navbar">
-    <!--navbar-->
-    <nav class="navbar  navbar-dark  fixed-top navbar-expand-lg bg-principal" ">
-        <div class="container color-principal">
-            <a class="navbar-brand fuente-brand text-light " href="#">Physio Animal</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse " id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="pages/nServicios.html">Servicios</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="pages/contacto.html">Ubicanos</a>
-                    </li>
-                </ul>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Barra de navegacion-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Physio Animal</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
             </div>
+          </div>
         </div>
-    </nav>
-    <!--hero-->
-    <section id="home" class="bg-cover hero-section" style="background-image: url(img/PA_009.jpg)">
-   
-        <div class="container text-white text-center">
-            <div class="row">
-                <div class="col-12">
-                    <!--hero <h1 class="fuente-brand" data-aos="zoom-i ">Physio Animal</h1> -->
-                    <img src="img/BLANCO.png" class="logo-banner" data-aos="fade-up" alt="">
-                </div>
-            </div>
+      </nav>
+      <!--carrusel-->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/img/" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="..." class="d-block w-100" alt="...">
+          </div>
         </div>
-    </section>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-    <!--ABOUT US-->
-    <section id="services" class="text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro " data-aos="fade-up">
-                    <h2 class="text-center fuente-brand mb-5 color-texto-secundario text-shadow-titulos">QUIENES SOMOS
-                    </h2>
-                    <p class="text-left ">
-                        PHYSIO ANIMAL Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae consequatur
-                        eveniet dicta obcaecati dolor delectus voluptas iste, reiciendis ut molestiae? Magni voluptates
-                        temporibus eum ducimus non adipisci, dolores ab animi! Dolores praesentium cum non molestiae
-                        ducimus nihil placeat corrupti, quos aspernatur at ipsam facilis totam ill<br />
-                    </p>
-                </div>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6" data-aos="fade-up"  data-aos-duration="2700">
-                    <div class="service">
-                        <div class="service-img">
-                            <img class="border-radius" src="img/cheems.jpg" alt="" />
-                        </div>
-                        <h4 class="mt-1 pt-4 mb-5 fuente-brand color-texto-secundario text-shadow-titulos">Misión</h4>
-                        <p class="text-start p-2">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique rerum veritatis illum
-                            porro architecto magni fugiat voluptatem non doloribus accusantium.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6" data-aos="fade-up"  data-aos-duration="2700">
-                    <div class="service">
-                        <div class="service-img">
-                            <img class="border-radius" src="img/cheems.jpg" alt="" />
-                        </div>
-                        <h4 class="mt-1 pt-4 mb-5 color-texto-secundario text-shadow-titulos fuente-brand">Visión</h4>
-                        <p class="text-start p-2 ">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos maiores quidem
-                            inventore corrupti tenetur praesentium veniam tempore ipsa velit?
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--PARALLAX FOTO-->
-    <section id="about" class="bg-cover height-section" style="background-image: url(img/dogFoto.jpg)">
-    </section>
-    <!--SERVICIOS-->
-    <section id="features" class="text-center bg-principal text-light">
-        <div class="container ">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
 
-                    <h2 class="text-uppercase mb-5 fuente-brand text-light">
-                        nuestros servicios
-                    </h2>
-                </div>
-            </div>
-            <div class="row m-auto">
-                <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2700">
-                    <div class="icon">
-                    </div>
-                    <h3 class="mt-4 mb-3">Fisioterapia</h3>
-                    <p class="text-left p-4  fw-bold">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Debitis consequuntur rem necessitatibus optio quam
-                        autem minima minus porro quasi enim.
-                    </p>
-                </div>
-                <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2700">
-                    <div class="icon">
-                    </div>
-                    <h3 class="mt-4 mb-3">Rehabilitación</h3>
-                    <p class="text-left p-4 fw-bold">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Voluptates ex quibusdam quia quod incidunt iste officiis,
-                        accusamus expedita provident laboriosam?
-                    </p>
-                </div>
-            </div>
-        </div>
-        <a href="#" class="myButton mt-4">Mas..</a>
-    </section>
-    <!--PARALLAX FOTO-->
-    <section class="bg-cover height-section" style="background-image: url(img/dogFoto3.jpg)">
-    </section>
-    <!--HISOTORIAS DE PACIENTES-->
-    <section id="blog" class="bg-light">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up" data-aos-duration="2700">
-                    <h2 class="fuente-brand color-texto-secundario text-shadow-titulos">HISTORIAS BONITAS</h2>
-                </div>
-            </div>
-            <div class="row text-left">
-                <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
-                    <img class=" border-radius" src="img/cheems.jpg" alt="" />
-                    <div class="mt-2">
-                        <h5 class="mt-1 fs-6 text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Totam recusandae ratione, asperiores maiores repellat soluta.z</h5>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
-                    <img class=" border-radius" src="img/cheems.jpg" alt="" />
-                    <div class="mt-2">
-                        <h5 class="mt-1 mb-2  fs-6">Lorem, ipsum dolor sit amet consectetur adipisicing
-                            elit. Earum dolor quas nulla, doloremque rem iure.</h5>
-                    </div>
-                </div>
-                <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
-                    <img class=" border-radius" src="img/cheems.jpg" alt="" />
-                    <div class="mt-2">
-                        <h5 class="m-2 fs-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ex doloremque
-                            quis esse, repellat voluptates.</h5>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!--contact-->
-    <section id="contact" class="bg-cover text-white" style="background-image: url(img/dogFoto4.jpg)">
-        <!--   <div class="container">
-            <div class="row">
-                <div class="col-12 section-intro text-center" data-aos="fade-up">
-                    <h2>CONTACTANOS</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-8 mx-auto" data-aos="fade-up">
-                    <form action="#" class="row g-4">
-                        <div class="form-group col-md-6">
-                            <input type="text" class="form-control" placeholder="NOMBRE " />
-                        </div>
-                        <div class="form-group col-md-6">
-                            <input type="email" class="form-control" placeholder="EMAIL" />
-                        </div>
-                        <div class="form-group col-md-12">
-                            <input type="text" class="form-control" placeholder="ASUNTO" />
-                        </div>
-                        <div class="form-group col-md-12">
-                            <textarea name="" id="" cols="30" rows="4" class="form-control"
-                                placeholder="MENSAJE"></textarea>
-                        </div>
-                        <div class="text-center">
-                            <button class="btn btn-main" type="submit">
-                                ENVIAR MENSAJE
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> -->
-        <div class="container background-amarillo">
-            <div class="row">
 
-                <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-duration="3000">
-                    <div class="wrapper ">
-                        <h2 class=" text-left mb-3">CONTACTO</h2>
-                        <form action="https://formsubmit.co/herrera.ancona@gmail.com" method="POST">
-                            <label for="Nombre">Nombre</label><br />
-                            <input class="form-control" type="text" name="name" /><br />
 
-                            <label for="email">Correo Electrónico</label><br />
-                            <input class="form-control" type="email" name="email" /><br />
-
-                            <label for="subject">Asunto</label><br />
-                            <input class="form-control" type="text" name="subject" /><br />
-
-                            <label for="email">Comentarios</label><br />
-                            <textarea class="form-control" name="comments" cols="25" rows="4"></textarea><br />
-                            <div class="text-center">
-                                <input class="mb-2 btn btn-main " id="boton-enviar" type="submit" value="Enviar" />
-                            </div>
-                            <input type="hidden" name="_next"
-                                value="https://herrera1010.github.io/portfolio/mensaje-exitoso.html" />
-                            <input type="hidden" name="_captcha" value="false" />
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
-    <!--footer-->
-    <footer class="py-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <p class="mb-0 fuente-brand">Physio Animal</p>
-                </div>
-                <div class="col-md-6 text-md-end">
-                    <div>
-                        <a
-                            href="mailto:contacto@ingesamid.com?subject=Mail from our Website">contacto@physioanimal.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <div class="containerBoton2  d-block d-xxl-none d-lg-none d-xl-none">
-        <a href="tel:+529994417237">
-            <img class="botonT" src="img/phone-solid.svg" alt="boton lamada">
-        </a>
-    </div>
-    <div class="containerBoton d-block d-xxl-none d-lg-none d-xl-none">
-        <a href="https://wa.me/+529994417237?text=Solicito%20informacion" target="_blank">
-            <img class="botonW" src="img/waIcono.png" alt="boton whatsapp">
-        </a>
-    </div>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/app.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
 </html>
