@@ -1,9 +1,21 @@
 .servicio{
-    width: 100%;
-    margin: auto;
+  
+    background-color: chartreuse;
 }
 
 .servicios{
-  width: 90%;
+  width: 100%;
+  background-color: darkblue;
+  margin: auto;
+}
+
+
+.pading-0{
+  padding: 0 !important;
+}
+
+.wave{
+  margin: 0 !important;
+  padding:0 !important;
 }
 
