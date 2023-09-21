@@ -7,8 +7,9 @@
 }
 
 .max-height{
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 350px;
+    max-width: 350px;
+    margin: auto;
 }
 
 .card {
