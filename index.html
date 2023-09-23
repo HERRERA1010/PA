@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="assets/css/historias-bonitas.css">
   <link rel="stylesheet" href="assets/css/footer.css">
   <link rel="stylesheet" href="assets/css/botonFlotante.css">
+  <link rel="stylesheet" href="assets/css/contacto.css">
   <!--ICO-->
   <link rel="shortcut icon" href="assets/img/BLANCO.ico" />
   <!--LIBRERIA AOS-->
@@ -97,7 +98,7 @@
 
       <div class="col">
         <div class="card">
-          <img src="assets/img/PA_006.jpg" class="card-img-top foto-radius-inverso" alt="...">
+          <img src="assets/img/PA_006.jpg" class="card-img-top foto-radius-inverso max-height" alt="...">
           <div class="card-body">
             <h5 class="titulos-text text-center mt-2">Mision</h5>
             <p class="general-text">This is a longer card with supporting text below as a natural lead-in to additional
@@ -131,7 +132,7 @@
       </div>
     </div>
     <div class="row m-auto">
-      <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2000">
 
         <h3 class="mt-4 mb-3  text-center">Fisioterapia</h3>
         <p class="text-left p-4  fw-bold">
@@ -140,7 +141,7 @@
           autem minima minus porro quasi enim.
         </p>
       </div>
-      <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-md-6 feature" data-aos="fade-up" data-aos-duration="2000">
         <div class="icon">
         </div>
         <h3 class="mt-4 mb-3  text-light text-center">Rehabilitación</h3>
@@ -159,28 +160,28 @@
   <!--FINAL SERVICIOS-->
 
   <!--HISTORIAS BONITAS-->
-  <div class="container">
+  <div class="container ">
     <div class="row">
-      <div class="col-12 section-intro text-center" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-12 section-intro text-center" data-aos="fade-up" data-aos-duration="2000">
         <h2 class="fuente-brand color-texto-secundario text-shadow-titulos">HISTORIAS BONITAS</h2>
       </div>
     </div>
     <div class="row text-left">
-      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
         <img class=" border-radius img-trabajos-previos" src="assets/img/cheems.jpg" alt="" />
         <div class="mt-2">
           <h5 class="mt-1 general-text text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Totam recusandae ratione, asperiores maiores repellat soluta.z</h5>
         </div>
       </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
         <img class=" border-radius img-trabajos-previos" src="assets/img/cheems.jpg" alt="" />
         <div class="mt-2">
           <h5 class="mt-1 mb-2 general-text">Lorem, ipsum dolor sit amet consectetur adipisicing
             elit. Earum dolor quas nulla, doloremque rem iure.</h5>
         </div>
       </div>
-      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2700">
+      <div class="col-md-4" data-aos="fade-up" data-aos-duration="2000">
         <img class=" border-radius img-trabajos-previos" src="assets/img/cheems.jpg" alt="" />
         <div class="mt-2">
           <h5 class="m-2 general-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ex doloremque
@@ -188,10 +189,43 @@
         </div>
       </div>
     </div>
+    </div>
+    <!--FINAL HISTORIAS BONITAS-->
+    <!--CONTACT0-->
+    <section class=" text-white bg-img" >
+      <div class="container ">
+          <div class="row">
+              <div class="col-md-8 mx-auto" data-aos="fade-up" data-aos-duration="2000">
+                  <div class="wrapper ">
+                      <h2 class=" text-left mb-3 mt-3">CONTACTO</h2>
+                      <form action="https://formsubmit.co/herrera.ancona@gmail.com" method="POST">
+                          <label for="Nombre">Nombre</label><br />
+                          <input class="form-control" type="text" name="name" /><br />
 
-    <!--footer-->
-    <footer class="py-4">
-      <div class="container">
+                          <label for="email">Correo Electrónico</label><br />
+                          <input class="form-control" type="email" name="email" /><br />
+
+                          <label for="subject">Asunto</label><br />
+                          <input class="form-control" type="text" name="subject" /><br />
+
+                          <label for="email">Comentarios</label><br />
+                          <textarea class="form-control" name="comments" cols="25" rows="4"></textarea><br />
+                          <div class="text-center mb-5">
+                              <input class="mb-2 btn btn-main " id="boton-enviar" type="submit" value="Enviar" />
+                          </div>
+                          <input type="hidden" name="_next"
+                              value="https://herrera1010.github.io/portfolio/mensaje-exitoso.html" />
+                          <input type="hidden" name="_captcha" value="false" />
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+    <!--FINAL CONTACTO-->
+    <!--FOOTER-->
+    <footer class="py-4 ">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
             <p class="mb-0 fuente-brand">Physio Animal</p>
