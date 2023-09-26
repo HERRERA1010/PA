@@ -1,21 +1,14 @@
-.servicio{
-  
+ .servicios-contenedor{
+   background-color: var(--color-principal);
+   color: #ffff;
+}
+ .servicio{ 
     background-color: chartreuse;
 }
-
-.servicios{
+ .servicios{
   width: 100%;
   background-color: darkblue;
   margin: auto;
-}
+ }
 
-
-.pading-0{
-  padding: 0 !important;
-}
-
-.wave{
-  margin: 0 !important;
-  padding:0 !important;
-}
-
+ 
