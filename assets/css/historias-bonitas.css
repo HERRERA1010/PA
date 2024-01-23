@@ -1,10 +1,7 @@
 .img-trabajos-previos{
-    margin: 15px auto;
-    width: 100%;
+    margin: 20px auto;
+    width: 70%;
     height: 320 px;
-    object-fit:cover;
+    
 }
 
-.border-radius{
-    border-radius: 5px;
-}
