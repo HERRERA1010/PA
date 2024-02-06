@@ -14,8 +14,10 @@
     background-color: var(--color-principal);
 }
 
-.mt-6{
-    margin-top: 4rem;
+
+/*TEXTOS */
+.texto-verde{
+    color: var(--color-principal);
 }
 
 /*ESTILOS A LA BARRA DE NAVEGACION*/
