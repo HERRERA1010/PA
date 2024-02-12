@@ -18,6 +18,10 @@
     margin-top: 4rem;
 }
 
+.text-color-principal{
+    color: var(--color-principal);
+}
+
 /*ESTILOS A LA BARRA DE NAVEGACION*/
 
 .fuente-brand{
