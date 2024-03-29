@@ -16,12 +16,13 @@
 
 
 /*TEXTOS */
-.texto-verde{
-    color: var(--color-principal);
-}
 
 .text-color-principal{
     color: var(--color-principal);
+}
+
+.sombra-textos{
+    text-shadow: -3px 9px 6px rgba(0,0,0,0.27);
 }
 
 /*ESTILOS A LA BARRA DE NAVEGACION*/
@@ -36,3 +37,4 @@
     -webkit-box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
     -moz-box-shadow: 0px 15px 12px -9px rgba(0,0,0,0.76);
 }
+
