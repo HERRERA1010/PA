@@ -36,3 +36,8 @@ form input.form-control {
 form .form-control::placeholder {
     color: #fff;
 }
+
+.no-border{
+    border: #ffffff00 !important;
+
+}
